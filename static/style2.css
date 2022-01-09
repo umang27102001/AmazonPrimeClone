@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.signcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin-top: 40px;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: #0f171e;
+}
+a{
+    text-decoration: none;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 107px;
+
+    margin: 0px;
+    transform: translate(15px, 3px);
+}
+select{
+    margin-right: 25px;
+    padding: 7px;
+    background:transparent;
+    border: none;
+    font-size: 18px;
+    color: #8197a4;
+}
+.right a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #8197a4;;
+}
+form{
+   
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    line-height: 2;
+}
+input{
+    display: block;
+}
+input[type="radio"],input[id="ConditionsAccepted"]{
+    display: inline-block;
+}
+input{
+    width: 519px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 35px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 27px;
+    /* width: 104px; */
+    /* height: 20px; */
+    padding: 9px 27px;
+    font-size: 19px;
+}
+#h-primary{
+    font-size: 4rem;
+    color: white;
+    font-weight: 700
+
+}
+label{
+    color: white;
+}
